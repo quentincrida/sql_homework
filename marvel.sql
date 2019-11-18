@@ -125,10 +125,33 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 
 
 -- We forgot one of the main characters! Add Bart Simpson to the ‘people’ table
+-- INSERT INTO people (name) VALUES ('Bart Simpson');
+-- id |         name
+-- ----+----------------------
+--  1 | Homer Simpson
+--  2 | Marge Simpson
+--  3 | Lisa Simpson
+--  4 | Maggie Simpson
+--  5 | Patty Bouvier
+--  6 | Selma Bouvier
+--  7 | Kent Brockman
+--  8 | Ned Flanders
+--  9 | Barney Gumble
+-- 10 | Itchy
+-- 11 | Eric Cartman
+-- 12 | Scratchy
+-- 13 | Crusty the Clown
+-- 14 | Montgomery Burns
+-- 15 | Mayor Joe Quimby
+-- 16 | Groundskeeper Willie
+-- 17 | Bart Simpson
+-- (17 rows)
+
 -- Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
 -- The cinema has just heard that they will be holding an exclusive midnight showing of ‘Avengers: Infinity War’!! Create a new entry in the ‘movies’ table to reflect this.
 -- The cinema would like to make the Iron Man movies a triple billing. Find out the show time of “Iron Man 2” and set the show time of “Iron Man 3” to start two hours later.
 -- Extension
 -- Research how to delete multiple entries from your table in a single command.
 
-SELECT * FROM movies;
+--SELECT * FROM movies;
+SELECT * FROM people;
